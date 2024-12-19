@@ -1,6 +1,6 @@
 local HTTPService = game:GetService("HttpService")
 
-local Prerequisite = loadstring(game:HttpGet("https://raw.githubusercontent.com/withohiogyattirizz/skibidialgortym/refs/heads/main/main.lua",true))
+local Prerequisite = loadstring(game:HttpGet("https://raw.githubusercontent.com/withohiogyattirizz/skibidialgortym/refs/heads/main/main.lua",true))()
 
 local IgnorableObjects = {"WindTrail", "NewDirt", "WaterImpact", "Footprint", "Part"}
 local UnnededClasses = {"SpecialMesh", "CylinderMesh", "UnionOperation"}
